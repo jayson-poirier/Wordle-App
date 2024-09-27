@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #242424;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="39.0" prefWidth="600.0" style="-fx-border-color: dimgrey;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Wordle">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <Text fill="#8d8d8d" strokeType="OUTSIDE" strokeWidth="0.0" text="made by Jayson Poirier" wrappingWidth="123.798828125" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+   </bottom>
+   <center>
+      <VBox alignment="CENTER" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane fx:id="wordGrid" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="500.0" prefWidth="420.0" vgap="5.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="3">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="4">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #3A3B3C; -fx-text-fill: #E4E6EB;" text="A" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </GridPane>
+            <VBox fx:id="keyboard" alignment="CENTER" prefHeight="154.0" prefWidth="800.0" spacing="5.0">
+               <children>
+                  <HBox alignment="CENTER" spacing="5.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="Q" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="W" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="E" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="R" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="114.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="T" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="Y" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="U" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="114.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="I" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="166.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="O" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="218.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="P" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="5.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="A" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="S" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="D" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="F" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="G" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="H" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="J" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="K" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="L" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="110.0" spacing="5.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #848484;" text="ENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="Z" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="X" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="C" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="V" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="B" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="N" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="40.0" style="-fx-background-color: #848484;" text="N" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #848484;" text="DEL" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
